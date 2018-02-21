@@ -1,0 +1,234 @@
+[18-Jan-2018 17:29:22 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[18-Jan-2018 17:29:23 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[18-Jan-2018 17:29:24 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[18-Jan-2018 17:29:25 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[18-Jan-2018 17:29:26 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[18-Jan-2018 17:29:26 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[19-Jan-2018 23:43:30 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[19-Jan-2018 23:43:30 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[19-Jan-2018 23:43:31 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[19-Jan-2018 23:43:31 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[20-Jan-2018 00:09:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/html5blank-stable/functions.php on line 115
+[20-Jan-2018 00:42:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Bootstrap_Navwalker() in /app/public/wp-content/themes/html5blank-stable/functions.php:336
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): prefix_modify_nav_menu_args(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/nav-menu-template.php(71): apply_filters('wp_nav_menu_arg...', Array)
+#3 /app/public/wp-content/themes/html5blank-stable/functions.php(77): wp_nav_menu(Array)
+#4 /app/public/wp-content/themes/html5blank-stable/header.php(45): html5blank_nav()
+#5 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#6 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#7 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /app/public/wp-content/themes/html5blank-stable/page.php(1): get_header()
+#9 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#10 /app/public/wp-blog-hea in /app/public/wp-content/themes/html5blank-stable/functions.php on line 336
+[20-Jan-2018 00:42:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Bootstrap_Navwalker() in /app/public/wp-content/themes/html5blank-stable/functions.php:336
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): prefix_modify_nav_menu_args(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/nav-menu-template.php(71): apply_filters('wp_nav_menu_arg...', Array)
+#3 /app/public/wp-content/themes/html5blank-stable/functions.php(77): wp_nav_menu(Array)
+#4 /app/public/wp-content/themes/html5blank-stable/header.php(45): html5blank_nav()
+#5 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#6 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#7 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /app/public/wp-content/themes/html5blank-stable/page.php(1): get_header()
+#9 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#10 /app/public/wp-blog-hea in /app/public/wp-content/themes/html5blank-stable/functions.php on line 336
+[30-Jan-2018 04:34:00 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/html5blank-stable/header.php on line 25
+[30-Jan-2018 04:34:00 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/html5blank-stable/header.php on line 25
+[30-Jan-2018 04:34:01 UTC] PHP Warning:  include_once(analyticstracking.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/html5blank-stable/header.php on line 25
+[30-Jan-2018 04:34:01 UTC] PHP Warning:  include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/html5blank-stable/header.php on line 25
+[03-Feb-2018 00:29:35 UTC] PHP Parse error:  syntax error, unexpected '$args' (T_VARIABLE), expecting '(' in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 71
+[05-Feb-2018 19:31:54 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Feb-2018 19:31:54 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Feb-2018 19:32:00 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Feb-2018 19:32:00 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[06-Feb-2018 01:03:46 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 95
+[06-Feb-2018 17:28:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[06-Feb-2018 17:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[07-Feb-2018 17:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[07-Feb-2018 17:53:04 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 142
+[07-Feb-2018 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 39
+[07-Feb-2018 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 39
+[07-Feb-2018 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 81
+[07-Feb-2018 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 81
+[07-Feb-2018 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 120
+[07-Feb-2018 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 120
+[07-Feb-2018 18:19:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 150
+[07-Feb-2018 18:50:08 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 49
+[07-Feb-2018 18:50:18 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 49
+[08-Feb-2018 18:48:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 109
+[08-Feb-2018 18:48:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[09-Feb-2018 17:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[11-Feb-2018 23:24:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 17:18:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 17:30:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[12-Feb-2018 18:37:40 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/html5blank-stable/template-home.php on line 24
+[14-Feb-2018 18:33:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[15-Feb-2018 17:32:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[20-Feb-2018 17:24:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[20-Feb-2018 17:29:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[20-Feb-2018 17:51:18 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/html5blank-stable/single.php on line 70
+[21-Feb-2018 16:54:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[21-Feb-2018 18:06:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[21-Feb-2018 18:06:07 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Feb-2018 18:06:07 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Feb-2018 18:06:08 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 212
+[21-Feb-2018 18:06:08 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 212
+[21-Feb-2018 18:06:09 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1070) : eval()'d code on line 75
+[21-Feb-2018 18:06:09 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1070) : eval()'d code on line 75
