@@ -14,6 +14,11 @@
 	</div>
 	<div class="col-sm-6">
 social
+<div class="row">
+	<div class="col-sm-6">
+		<i class="fab fa-instagram fa-lg"></i>
+	</div>
+</div>
 
 	</div>
 </div>

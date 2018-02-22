@@ -254,6 +254,7 @@ a img.aligncenter {
 .post_bording {
     border-right: 2px solid #868686;
     border-left: 2px solid #868686;
+
 }
 .title_section {
     margin-left: 35px;
@@ -285,6 +286,9 @@ a img.aligncenter {
 }
 .img_thumb_nail img{
 	border-radius: 20%
+}
+.list_cleaning{
+	list-style-type: none;
 }
 /*------------------------------------*\
     PRINT

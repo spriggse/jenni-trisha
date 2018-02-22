@@ -12,7 +12,7 @@
         <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <style>
@@ -60,8 +60,11 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse navHeaderCollapse pull-right">
                                     <div class="col-xs-12 main-nav">
-                                      <i class=“fab fa-instagram”>in</i>
-                                      <a href="#"> <img href="" alt=""/></a>  <h1 class="">hi</h1>
+                                      <!-- <i class=“fab fa-instagram”></i> -->
+                                      <a href="#">
+                                      <i class="fab fa-instagram fa-3x"></i>
+                                      </a>
+                                     <!-- <h1 class="">hi</h1> -->
                                     </div>
                                 </div>
                             </div>

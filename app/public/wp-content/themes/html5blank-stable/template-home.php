@@ -34,7 +34,7 @@
 // ,'posts_per_page' => 1
 	    $myposts = get_posts( $args );
 	    foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
-			<li>
+			<li class="list_cleaning">
 				<div class="title_fixing">
 					<a href="<?php the_permalink(); ?>"><?php the_title(); ?>
 				</div>
@@ -88,7 +88,7 @@
 // ,'posts_per_page' => 1
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
-			<li>
+			<li class="list_cleaning">
 				<div class="title_fixing">
 					<a href="<?php the_permalink(); ?>"><?php the_title(); ?>
 				</div>
@@ -139,7 +139,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 // ,'posts_per_page' => 1
 	$myposts = get_posts( $args );
 	foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
-	<li>
+	<li class="list_cleaning">
 		<div class="title_fixing">
 			<a href="<?php the_permalink(); ?>"><?php the_title(); ?>
 		</div>
