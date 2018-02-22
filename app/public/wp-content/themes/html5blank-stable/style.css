@@ -262,11 +262,12 @@ a img.aligncenter {
 .context_single{
 	font-size: 20px;
 	text-align: center;
+	padding-bottom: 20px;
 }
 .foot_box{
 	background-color: gray;
 	color: white;
-	font-size: 10px;
+	font-size: 13px;
 	padding: 39px;
 }
 .title_fixing{
