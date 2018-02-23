@@ -61,9 +61,13 @@
                                 <div class="collapse navbar-collapse navHeaderCollapse pull-right">
                                     <div class="col-xs-12 main-nav">
                                       <!-- <i class=“fab fa-instagram”></i> -->
-                                      <a href="#">
-                                      <i class="fab fa-instagram fa-3x"></i>
-                                      </a>
+                                      <div class="social_media_head">
+                                        <a href="https://www.instagram.com/jennitrisha/">
+                                          <i class="fab fa-instagram fa-3x"></i>
+                                        </a>
+                                        <i class="far fa-envelope fa-3x"></i>
+                                      </div>
+
                                      <!-- <h1 class="">hi</h1> -->
                                     </div>
                                 </div>

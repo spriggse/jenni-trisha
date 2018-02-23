@@ -1,4 +1,5 @@
 <div class="row foot_box">
+
 	<div class="col-sm-6">
 		<footer class="footer" role="contentinfo">
 
@@ -13,10 +14,14 @@
 
 	</div>
 	<div class="col-sm-6">
-social
+
 <div class="row">
 	<div class="col-sm-6">
-		<i class="fab fa-instagram fa-lg"></i>
+		<a href="https://www.instagram.com/jennitrisha/">
+			<i class="fab fa-instagram fa-lg"></i>
+			
+		</a>
+
 	</div>
 </div>
 

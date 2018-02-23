@@ -70,7 +70,7 @@
       <div class="title_posting">
 
 				<div class="title_section">
-						new posts
+						video
 				</div>
 
         <hr>
@@ -84,7 +84,7 @@
 
 			<ul>
 			<?php
-			$args = array('category' => 1 );
+			$args = array('category' => 6 );
 // ,'posts_per_page' => 1
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
@@ -99,7 +99,8 @@
 					</div>
 
 					<div class="par_home">
-						<?php the_excerpt(); ?>
+						<!-- <?php the_excerpt(); ?> -->
+					<?php the_content() ?>	
 					</div>
 
 				</a>

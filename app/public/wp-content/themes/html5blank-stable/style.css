@@ -270,6 +270,8 @@ a img.aligncenter {
 	color: white;
 	font-size: 13px;
 	padding: 39px;
+	margin-right: 0px;
+    margin-left: 0px;
 }
 .title_fixing{
 	padding-bottom: 20px;
@@ -289,6 +291,18 @@ a img.aligncenter {
 }
 .list_cleaning{
 	list-style-type: none;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    border-bottom: 2px solid #868686;
+    border-top: 2px solid #868686;
+}.navbar{
+	margin-bottom: 0px;
+
+}
+svg.svg-inline--fa.fa-instagram.fa-w-14.fa-3x {
+    margin-top: 8px;
 }
 /*------------------------------------*\
     PRINT
