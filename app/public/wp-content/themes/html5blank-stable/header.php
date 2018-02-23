@@ -12,7 +12,7 @@
         <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <style>
@@ -29,10 +29,22 @@
                 <div class="container-fluid  mobileColor">
                     <div class="row">
                         <div class="col-xs-7 col-sm-6 col-md-6 main-img">
-                            <a href="<?php echo home_url(); ?>" class="main-logo">
 
-                                <h1 class="main-name"></h1>
-                            </a>
+                            <div class="test_nav">
+
+                              <?php /* Primary navigation */
+                                  wp_nav_menu( array(
+                                  'menu' => 'primary',
+                                  'theme-location' => 'primary',
+                                  'depth' => 2,
+                                  'menu_class' => 'nav navbar-nav ',
+                                  'fallback-cb' => 'wp_bootstrap_navwalker::fallback',
+                                  //Process nav menu using our custom nav walker
+                                  'walker' => new wp_bootstrap_navwalker())
+                                  );
+                              ?>
+
+                            </div>
                         </div>
 
                         <div class="col-xs-5 col-sm-6 col-md-6">
@@ -48,17 +60,15 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse navHeaderCollapse pull-right">
                                     <div class="col-xs-12 main-nav">
-                                        <?php /* Primary navigation */
-                                            wp_nav_menu( array(
-                                            'menu' => 'primary',
-                                            'theme-location' => 'primary',
-                                            'depth' => 2,
-                                            'menu_class' => 'nav navbar-nav ',
-                                            'fallback-cb' => 'wp_bootstrap_navwalker::fallback',
-                                            //Process nav menu using our custom nav walker
-                                            'walker' => new wp_bootstrap_navwalker())
-                                            );
-                                        ?>
+                                      <!-- <i class=“fab fa-instagram”></i> -->
+                                      <div class="social_media_head">
+                                        <a href="https://www.instagram.com/jennitrisha/">
+                                          <i class="fab fa-instagram fa-3x"></i>
+                                        </a>
+                                        <i class="far fa-envelope fa-3x"></i>
+                                      </div>
+
+                                     <!-- <h1 class="">hi</h1> -->
                                     </div>
                                 </div>
                             </div>
