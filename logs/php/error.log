@@ -232,3 +232,16 @@ Stack trace:
 [21-Feb-2018 18:06:08 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 212
 [21-Feb-2018 18:06:09 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1070) : eval()'d code on line 75
 [21-Feb-2018 18:06:09 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1070) : eval()'d code on line 75
+[22-Feb-2018 17:36:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function request_filesystem_credentials() in /app/public/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /app/public/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#1 /app/public/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/app/public/', true)
+#2 /app/public/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/app/public/')
+#3 /app/public/wp-includes/update.php(215): find_core_auto_update()
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /app/public/wp-cron.php(126): do_action_ref_array('wp_version_chec...', Array)
+#8 {main}
+  thrown in /app/public/wp-admin/includes/class-wp-upgrader-skin.php on line 93
+[23-Feb-2018 17:31:30 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1070) : eval()'d code on line 75
