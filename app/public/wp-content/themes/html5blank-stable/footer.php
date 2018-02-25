@@ -1,6 +1,6 @@
 <div class="row foot_box">
 
-	<div class="col-sm-6">
+	<div class="col-sm-10">
 		<footer class="footer" role="contentinfo">
 
 			<!-- copyright -->
@@ -13,13 +13,13 @@
 		</footer>
 
 	</div>
-	<div class="col-sm-6">
+	<div class="col-sm-2">
 
 <div class="row">
 	<div class="col-sm-6">
 		<a href="https://www.instagram.com/jennitrisha/">
 			<i class="fab fa-instagram fa-lg"></i>
-			
+
 		</a>
 
 	</div>

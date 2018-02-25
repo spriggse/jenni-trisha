@@ -28,6 +28,9 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="container-fluid  mobileColor">
                     <div class="row">
+                      <div class="collapse navbar-collapse navHeaderCollapse ">
+
+
                         <div class="col-xs-7 col-sm-6 col-md-6 main-img">
 
                             <div class="test_nav">
@@ -46,8 +49,9 @@
 
                             </div>
                         </div>
+                      </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
 
-                        <div class="col-xs-5 col-sm-6 col-md-6">
                             <div class="row">
                                 <div class="col-xs-12">
                                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -58,19 +62,7 @@
                                 </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse navHeaderCollapse pull-right">
-                                    <div class="col-xs-12 main-nav">
-                                      <!-- <i class=“fab fa-instagram”></i> -->
-                                      <div class="social_media_head">
-                                        <a href="https://www.instagram.com/jennitrisha/">
-                                          <i class="fab fa-instagram fa-3x"></i>
-                                        </a>
-                                        <i class="far fa-envelope fa-3x"></i>
-                                      </div>
 
-                                     <!-- <h1 class="">hi</h1> -->
-                                    </div>
-                                </div>
                             </div>
 
                         </div><!--end div class collapse navbar-collapse navHeaderCollapse -->
@@ -79,6 +71,25 @@
                 </div><!--end div class container-fluid-->
             </div><!--end div class navbar  navbar-static-top navbar-custom-->
         </nav>
+        <section>
+          <div class="container">
+            <div class=" pull-right">
+                <div class="col-xs-12 main-nav">
+                  <!-- <i class=“fab fa-instagram”></i> -->
+                  <div class="social_media_head">
+                    <a href="https://www.instagram.com/jennitrisha/">
+                      <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+
+                    <a href="mailto:someone@yoursite.com"><i class="far fa-envelope fa-3x"></i></a>  
+                  </div>
+
+                 <!-- <h1 class="">hi</h1> -->
+                </div>
+            </div>
+          </div>
+
+        </section>
         <!--Testing if_is_frontPage -->
     <?php
         add_action( 'loop_start', 'using_front_page_conditional_tag' );
