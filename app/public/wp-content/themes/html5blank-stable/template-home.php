@@ -15,7 +15,7 @@
       <div class="title_posting">
 
 				<div class="title_section">
-						interesting
+					<?php echo get_cat_name( $category_id = 4 );?>
 				</div>
 
         <hr>
@@ -27,6 +27,7 @@
 		$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=> -1)); ?>
 
 		<?php if ( $wpb_all_query->have_posts() ) : ?>
+
 
 			<ul>
 	    <?php
@@ -70,7 +71,8 @@
       <div class="title_posting">
 
 				<div class="title_section">
-						video
+
+						<?php echo get_cat_name( $category_id = 6 );?>
 				</div>
 
         <hr>
@@ -100,7 +102,10 @@
 
 					<div class="par_home">
 						<!-- <?php the_excerpt(); ?> -->
-					<?php the_content() ?>	
+						<div class="embed-responsive embed-responsive-16by9">
+  <?php the_content() ?>
+</div>
+
 					</div>
 
 				</a>
@@ -123,7 +128,7 @@
 	<div class="post_bording_right">
 		<div class="title_poting">
 <div class="title_section">
-		popular
+<?php echo get_cat_name( $category_id = 5 );?>
 </div>
 
 			<hr>
@@ -137,6 +142,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 	<ul>
 	<?php
 	$args = array('category' => 5 );
+
 // ,'posts_per_page' => 1
 	$myposts = get_posts( $args );
 	foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
@@ -146,6 +152,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 		</div>
 
 			<div class="img_thumb_nail">
+				<?php get_the_category() ?>
 				<?php the_post_thumbnail(); ?>
 
 			</div>
